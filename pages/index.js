@@ -21,11 +21,11 @@ export default function Home ({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+        <p>Devsquad is a site dedicated to helping software developers with skills they 
+          need in order to further their careers. Whether you are just starting out or are a seasoned
+          professional DevSquad exists to help you.
         </p>
+        <Link href ='/moreinfo'><a>More Info</a></Link>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
