@@ -37,8 +37,19 @@ export default function Home ({ allPostsData }) {
               <li>How to grow your career - Regardless of your path, how can you keep growing?</li>
           </ul>
           </div>
-          
- 
+          <div>
+            <h2>Current Needs:</h2>
+            <ul>
+              <li>* Designer to help with look and Feel</li>
+              <li>* Start work on building Algorithm module components</li>
+            </ul>
+          </div>
+        <div className='text-center'>
+          <p>For now to get involved check out the {'\u00A0'}
+             
+          <a href='https://github.com/justinisbellorg/devsquad'>Github Repo</a> 
+          </p>
+        </div>
         </section>
       {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
