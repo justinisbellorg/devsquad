@@ -13,12 +13,6 @@ date: '2020-01-01'
 
 >Following these guidelines helps to communicate that you respect the time of the developers managing and developing DevSquad. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
 
-
-## Explain what kinds of contributions you are looking for.
-
-Keep an open mind! Improving documentation, bug triaging, or writing tutorials are all examples of helpful contributions that mean less work for you.
-
-
 ## How you can Contribute.
 
 We are open to pretty much any kind of contribution. You can help triage issues, confirm bugs, or contribute code or new content! If you need help getting plugged in just join our discord server and join the #contributing channel!
