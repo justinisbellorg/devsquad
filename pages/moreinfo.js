@@ -1,15 +1,14 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
 
 export default function MoreInfo () {
     return (
       <Layout >
         <Head>
-          <title>More About DevSquad</title>
+          <title >More About DevSquad</title>
         </Head>
-        <section className={utilStyles.headingMd}>
-            <h2>I want to help people with:</h2>
+        <section className='container'>
+            <h2 className='text-center'>I want to help people with:</h2>
           <p>
               Key Algorithms - conceptually how they work and implementations<br />
               Interview Kit - mock interview tools, sample questions, prep steps<br />
