@@ -61,7 +61,7 @@ export default function Home() {
           <ul>
             <li>* Designer to help with look and Feel</li>
             <li>* Start work on building Algorithm module components</li>
-            <li>* Any other Areas you feel like contributing</li>
+            <li>* Any other areas you feel like contributing!</li>
           </ul>
         </div>
         <div className="text-center">

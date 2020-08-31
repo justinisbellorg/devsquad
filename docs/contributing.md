@@ -71,6 +71,8 @@ Here are the easiest ways to get started, but feel free to jump in anywhere.
 > 5. What did you see instead?
 >Please tag your issue as a bug.
 
+## Issue management
+We are still figuring out the approach here so please stay tuned. Feel free to ask on discord if its not totally clear.
 
 ## How to suggest new features
 This information will give contributors context before they make suggestions that may not align with the project’s needs.
