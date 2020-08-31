@@ -1,7 +1,4 @@
----
-title: 'Contributing'
-date: '2020-01-01'
----
+
 # Introduction
 
 ## Welcome!
@@ -30,7 +27,7 @@ We are open to pretty much any kind of contribution. You can help triage issues,
 > * Content should be drive as Markdown or Code, please no external integrations to a CRM or CMS.
 > * Accesibility is king. Any UI updates or changes must maintain full accessilbity compatibility. 
 > * Be welcoming to newcomers and encourage diverse new contributors from all backgrounds. Regardless of how good or bad a PR is, all feedback should be specific, contructive, and in no way comment on the person submitting the chage.
-> * Content contributions should be focused on the mission of the site, please no political, religious, or personal commentary. If we wish to make such statements we will decide this as a group on our discord channel.
+> * Content contributions should be focused on the mission of the site
 
 
 # Getting Started
@@ -45,7 +42,7 @@ Here are the easiest ways to get started, but feel free to jump in anywhere.
 ## Small Changes
 >Create your own Fork of the Code
 >Make your Changes.
->Run our linter and prettier against the project
+>Run eslint against the project
 >Each commit, if there is more than one, should have a clear desciption of what you are changing
 >Your pull request should make it clear the change is small and what you changed. 
 
@@ -53,7 +50,7 @@ Here are the easiest ways to get started, but feel free to jump in anywhere.
 
 >1. Create your own fork of the code
 >2. Do the changes in your fork
->4. Be sure you have run eslint and prettier for the project along with a lighthouse check.
+>4. Be sure you have run eslint for the project along with a lighthouse check.
 >5. Make it clear what your goal with the changes are, and how you feel it makes the project better.
 >6. If you make a change that affects the entire site please note this and how you feel the site will be better. 
 >7. If you are adding new content make sure you are adding it in the right space and please spellcheck and grammar check your work.
@@ -74,6 +71,8 @@ Here are the easiest ways to get started, but feel free to jump in anywhere.
 > 5. What did you see instead?
 >Please tag your issue as a bug.
 
+## Issue management
+We are still figuring out the approach here so please stay tuned. Feel free to ask on discord if its not totally clear.
 
 ## How to suggest new features
 This information will give contributors context before they make suggestions that may not align with the project’s needs.
@@ -98,3 +97,7 @@ If you can't tell we use discord for most anything that isn't on github. Its ope
 
 > We are at: https://discord.gg/2GnzcC7
 
+# A few technical details
+I have left the posts example from the next.js tutorial in here to show how content articles can work. Things like algorithms that are more programattic probably need to be react pages/components and not markdown. Learning articles and content like that can just be .md if you want. Please make sure if the content has an aggregator or page generator working against it that you create content compatble with how it works.
+
+While we are getting started its ok to ignore proptypes but we will be adding it.

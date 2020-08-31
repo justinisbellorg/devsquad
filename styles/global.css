@@ -5,6 +5,7 @@ h1 {
 }
 h2 {
   @apply text-xl;
+  @apply mt-2;
 }
 h3 {
   @apply text-lg;
