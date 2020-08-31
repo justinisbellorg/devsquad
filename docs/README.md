@@ -9,7 +9,7 @@
 
  Please jump in, contribute, and give us feedback!
 
- You can find our contributing guide here: /contributing.md
-
+ You can find our contributing guide [here](contributing.md):
+ 
  You can join us on discord here: https://discord.gg/2GnzcC7
 
