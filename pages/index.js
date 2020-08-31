@@ -61,7 +61,8 @@ export default function Home() {
           <ul>
             <li>* Designer to help with look and Feel</li>
             <li>* Start work on building Algorithm module components</li>
-            <li>* Any other areas you feel like contributing!</li>
+            <li>* Any other areas you feel like contributing! Check out our open Issues <a href='https://github.com/justinisbellorg/devsquad/issues'>Here</a></li>
+            <li>* You can check out the contribution guide <a href='https://github.com/justinisbellorg/devsquad/blob/trunk/docs/contributing.md'>Here</a> for how to add your own issues</li>
           </ul>
         </div>
         <div className="text-center">
