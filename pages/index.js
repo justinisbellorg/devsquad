@@ -1,17 +1,17 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import { getSortedPostsData } from '../lib/posts'
+import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
+import { getSortedPostsData } from "../lib/posts";
 
-export async function getStaticProps () {
-  const allPostsData = getSortedPostsData()
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData();
   return {
     props: {
-      allPostsData
-    }
-  }
+      allPostsData,
+    },
+  };
 }
 
-export default function Home () {
+export default function Home() {
   return (
     <Layout home>
       <Head>
@@ -24,6 +24,13 @@ export default function Home () {
           just starting out or are a seasoned professional DevSquad exists to
           help you. This is an open source project as well so you can contribute
           to it to get introduced to contributing to OSS
+        </p>
+        <p>
+          While we could wind up going in any direction initially the vision for
+          this project is to start working on things from a conceptual and an
+          approach level. Hopefully at the end of the project you will understand
+          how a binary tree search works, when to use it, and a few examples of
+          how it can be implemented.
         </p>
       </section>
       <section className="container m-auto">
@@ -54,33 +61,18 @@ export default function Home () {
           <ul>
             <li>* Designer to help with look and Feel</li>
             <li>* Start work on building Algorithm module components</li>
+            <li>* Any other Areas you feel like contributing</li>
           </ul>
         </div>
         <div className="text-center">
           <p>
-            For now to get involved check out the {'\u00A0'}
+            For now to get involved check out the {"\u00A0"}
             <a href="https://github.com/justinisbellorg/devsquad">
               Github Repo
             </a>
           </p>
         </div>
       </section>
-      {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-  <Link href="/posts/[id]" as={`/posts/${id}`}>
-    <a>{title}</a>
-  </Link>
-  <br />
-  <small className={utilStyles.lightText}>
-    <Date dateString={date} />
-  </small>
-</li>
-          ))}
-        </ul>
-      </section> */}
     </Layout>
-  )
+  );
 }
